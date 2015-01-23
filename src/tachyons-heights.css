@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -35,7 +37,7 @@
 .hi-at { height: auto; }
 .hi-i {  height: inherit; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .wi1-ns {  height: 1rem; }
   .wi2-ns {  height: 2rem; }
   .wi3-ns {  height: 4rem; }
@@ -60,7 +62,7 @@
   .hi-i-ns {  height: inherit; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .wi1-m {      height: 1rem; }
   .wi2-m {      height: 2rem; }
   .wi3-m {      height: 4rem; }
@@ -85,7 +87,7 @@
   .hi-i-m {     height: inherit; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .wi1-l {      height: 1rem; }
   .wi2-l {      height: 2rem; }
   .wi3-l {      height: 4rem; }
