@@ -2,7 +2,7 @@
   "name": "tachyons-heights",
   "version": "0.3.0",
   "style": "tachyons-heights.css",
-  "homepage": "http://mrmrs.io/tachyons-heights",
+  "homepage": "http://github.com/mrmrs/tachyons-heights",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
