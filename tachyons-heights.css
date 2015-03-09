@@ -6,312 +6,312 @@
 
 /* Width Scale */
 
-.wi1 {
+.h1 {
   height: 1rem;
 }
 
-.wi2 {
+.h2 {
   height: 2rem;
 }
 
-.wi3 {
+.h3 {
   height: 4rem;
 }
 
-.wi4 {
+.h4 {
   height: 8rem;
 }
 
-.wi5 {
+.h5 {
   height: 16rem;
 }
 
-.hi-10 {
+.h-10 {
   height: 10%;
 }
 
-.hi-20 {
+.h-20 {
   height: 20%;
 }
 
-.hi-25 {
+.h-25 {
   height: 25%;
 }
 
-.hi-40 {
+.h-40 {
   height: 40%;
 }
 
-.hi-50 {
+.h-50 {
   height: 50%;
 }
 
-.hi-60 {
+.h-60 {
   height: 60%;
 }
 
-.hi-75 {
+.h-75 {
   height: 75%;
 }
 
-.hi-80 {
+.h-80 {
   height: 80%;
 }
 
-.hi-100 {
+.h-100 {
   height: 100%;
 }
 
 /* Width String Properties */
 
-.hi-bb {
+.h-bb {
   height: border-box;
 }
 
-.hi-cb {
+.h-cb {
   height: content-box;
 }
 
-.hi-mx {
+.h-mx {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
 
-.hi-mn {
+.h-mn {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
 }
 
-.hi-av {
+.h-av {
   height: available;
 }
 
-.hi-fc {
+.h-fc {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
 
-.hi-at {
+.h-at {
   height: auto;
 }
 
-.hi-i {
+.h-i {
   height: inherit;
 }
 
-@media screen and (max-width: 48em) {
-  .wi1-ns {
+@media screen and (min-width: 48em) {
+  .h1-ns {
     height: 1rem;
   }
 
-  .wi2-ns {
+  .h2-ns {
     height: 2rem;
   }
 
-  .wi3-ns {
+  .h3-ns {
     height: 4rem;
   }
 
-  .wi4-ns {
+  .h4-ns {
     height: 8rem;
   }
 
-  .wi5-ns {
+  .h5-ns {
     height: 16rem;
   }
 
-  .hi-10-ns {
+  .h-10-ns {
     height: 10%;
   }
 
-  .hi-20-ns {
+  .h-20-ns {
     height: 20%;
   }
 
-  .hi-25-ns {
+  .h-25-ns {
     height: 25%;
   }
 
-  .hi-40-ns {
+  .h-40-ns {
     height: 40%;
   }
 
-  .hi-50-ns {
+  .h-50-ns {
     height: 50%;
   }
 
-  .hi-60-ns {
+  .h-60-ns {
     height: 60%;
   }
 
-  .hi-75-ns {
+  .h-75-ns {
     height: 75%;
   }
 
-  .hi-80-ns {
+  .h-80-ns {
     height: 80%;
   }
 
-  .hi-100-ns {
+  .h-100-ns {
     height: 100%;
   }
 
-  .hi-bb-ns {
+  .h-bb-ns {
     height: border-box;
   }
 
-  .hi-cb-ns {
+  .h-cb-ns {
     height: content-box;
   }
 
-  .hi-mx-ns {
+  .h-mx-ns {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
 
-  .hi-mn-ns {
+  .h-mn-ns {
     height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
   }
 
-  .hi-av-ns {
+  .h-av-ns {
     height: available;
   }
 
-  .hi-fc-ns {
+  .h-fc-ns {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
 
-  .hi-at-ns {
+  .h-at-ns {
     height: auto;
   }
 
-  .hi-i-ns {
+  .h-i-ns {
     height: inherit;
   }
 }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .wi1-m {
+  .h1-m {
     height: 1rem;
   }
 
-  .wi2-m {
+  .h2-m {
     height: 2rem;
   }
 
-  .wi3-m {
+  .h3-m {
     height: 4rem;
   }
 
-  .wi4-m {
+  .h4-m {
     height: 8rem;
   }
 
-  .wi5-m {
+  .h5-m {
     height: 16rem;
   }
 
-  .hi-10-m {
+  .h-10-m {
     height: 10%;
   }
 
-  .hi-20-m {
+  .h-20-m {
     height: 20%;
   }
 
-  .hi-25-m {
+  .h-25-m {
     height: 25%;
   }
 
-  .hi-40-m {
+  .h-40-m {
     height: 40%;
   }
 
-  .hi-50-m {
+  .h-50-m {
     height: 50%;
   }
 
-  .hi-60-m {
+  .h-60-m {
     height: 60%;
   }
 
-  .hi-75-m {
+  .h-75-m {
     height: 75%;
   }
 
-  .hi-80-m {
+  .h-80-m {
     height: 80%;
   }
 
-  .hi-100-m {
+  .h-100-m {
     height: 100%;
   }
 
-  .hi-bb-m {
+  .h-bb-m {
     height: border-box;
   }
 
-  .hi-cb-m {
+  .h-cb-m {
     height: content-box;
   }
 
-  .hi-mx-m {
+  .h-mx-m {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
 
-  .hi-mn-m {
+  .h-mn-m {
     height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
   }
 
-  .hi-av-m {
+  .h-av-m {
     height: available;
   }
 
-  .hi-fc-m {
+  .h-fc-m {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
 
-  .hi-at-m {
+  .h-at-m {
     height: auto;
   }
 
-  .hi-i-m {
+  .h-i-m {
     height: inherit;
   }
 }
 
 @media screen and (min-width: 64em) {
-  .wi1-l {
+  .hi1-l {
     height: 1rem;
   }
 
-  .wi2-l {
+  .hi2-l {
     height: 2rem;
   }
 
-  .wi3-l {
+  .hi3-l {
     height: 4rem;
   }
 
-  .wi4-l {
+  .hi4-l {
     height: 8rem;
   }
 
-  .wi5-l {
+  .hi5-l {
     height: 16rem;
   }
 
