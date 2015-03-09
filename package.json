@@ -1,6 +1,6 @@
 {
   "name": "tachyons-heights",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "style": "tachyons-heights.css",
   "homepage": "http://github.com/mrmrs/tachyons-heights",
   "description": "Performance based css module.",
