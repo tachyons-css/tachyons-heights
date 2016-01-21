@@ -1,18 +1,17 @@
 {
   "name": "tachyons-heights",
-  "version": "4.0.1",
-  "style": "tachyons-heights.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-heights",
+  "version": "4.0.2",
+  "style": "src/tachyons-heights.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-heights.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-heights/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-heights",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
