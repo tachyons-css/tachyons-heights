@@ -1,10 +1,10 @@
-# tachyons-heights 4.0.2
+# tachyons-heights 4.1.1
 
 Performance based css module.
 
 #### Stats
 
-325 | 36 | 36
+320 | 36 | 36
 ---|---|---
 bytes | selectors | declarations
 
@@ -74,9 +74,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .h-at { height: auto; }
 .h-i { height: inherit; }
 @media screen and (min-width: 48em) {
- .h-1-ns { height: 1rem; }
- .h-2-ns { height: 2rem; }
- .h-3-ns { height: 4rem; }
+ .h1-ns { height: 1rem; }
+ .h2-ns { height: 2rem; }
+ .h3-ns { height: 4rem; }
  .h-25-ns { height: 25%; }
  .h-50-ns { height: 50%; }
  .h-75-ns { height: 75%; }
