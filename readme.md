@@ -1,10 +1,10 @@
-# tachyons-heights 4.1.1
+# tachyons-heights 4.1.2
 
 Performance based css module.
 
 #### Stats
 
-320 | 36 | 36
+358 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -65,6 +65,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .h1 { height: 1rem; }
 .h2 { height: 2rem; }
 .h3 { height: 4rem; }
+.h4 { height: 8rem; }
+.h5 { height: 16rem; }
 /* Height Percentages */
 .h-25 { height: 25%; }
 .h-50 { height: 50%; }
@@ -74,9 +76,11 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .h-at { height: auto; }
 .h-i { height: inherit; }
 @media screen and (min-width: 48em) {
- .h1-ns { height: 1rem; }
- .h2-ns { height: 2rem; }
- .h3-ns { height: 4rem; }
+ .h-1-ns { height: 1rem; }
+ .h-2-ns { height: 2rem; }
+ .h-3-ns { height: 4rem; }
+ .h-4-ns { height: 8rem; }
+ .h-5-ns { height: 16rem; }
  .h-25-ns { height: 25%; }
  .h-50-ns { height: 50%; }
  .h-75-ns { height: 75%; }
@@ -88,6 +92,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
+ .h4-m { height: 8rem; }
+ .h5-m { height: 16rem; }
  .h-25-m { height: 25%; }
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
@@ -99,6 +105,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
+ .h4-l { height: 8rem; }
+ .h5-l { height: 16rem; }
  .h-25-l { height: 25%; }
  .h-50-l { height: 50%; }
  .h-75-l { height: 75%; }
