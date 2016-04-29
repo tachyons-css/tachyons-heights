@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-350 | 44 | 44
+352 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -73,7 +73,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .h-75 { height: 75%; }
 .h-100 { height: 100%; }
 /* String Properties */
-.h-at { height: auto; }
+.h-auto { height: auto; }
 .h-i { height: inherit; }
 @media screen and (min-width: 48em) {
  .h1-ns { height: 1rem; }
@@ -85,7 +85,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-50-ns { height: 50%; }
  .h-75-ns { height: 75%; }
  .h-100-ns { height: 100%; }
- .h-at-ns { height: auto; }
+ .h-auto-ns { height: auto; }
  .h-i-ns { height: inherit; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -98,7 +98,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-50-m { height: 50%; }
  .h-75-m { height: 75%; }
  .h-100-m { height: 100%; }
- .h-at-m { height: auto; }
+ .h-auto-m { height: auto; }
  .h-i-m { height: inherit; }
 }
 @media screen and (min-width: 64em) {
@@ -111,7 +111,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-50-l { height: 50%; }
  .h-75-l { height: 75%; }
  .h-100-l { height: 100%; }
- .h-at-l { height: auto; }
+ .h-auto-l { height: auto; }
  .h-i-l { height: inherit; }
 }
 ```
