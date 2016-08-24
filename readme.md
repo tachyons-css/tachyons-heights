@@ -93,7 +93,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 /* String Properties */
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .h1-ns { height: 1rem; }
  .h2-ns { height: 2rem; }
  .h3-ns { height: 4rem; }
@@ -106,7 +106,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-auto-ns { height: auto; }
  .h-inherit-ns { height: inherit; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
@@ -119,7 +119,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
