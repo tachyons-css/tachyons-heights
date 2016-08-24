@@ -1,10 +1,10 @@
-# tachyons-heights 5.0.1
+# tachyons-heights 5.0.4
 
 Performance based css module.
 
 #### Stats
 
-352 | 44 | 44
+354 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -16,10 +16,20 @@ bytes | selectors | declarations
 npm install --save-dev tachyons-heights
 ```
 
+Learn more about using css installed with npm:
+* https://webpack.github.io/docs/stylesheets.html
+* https://github.com/defunctzombie/npm-css
+
 #### With Git
 
+http:
 ```
 git clone https://github.com/tachyons-css/tachyons-heights
+```
+
+ssh:
+```
+git clone git@github.com:tachyons-css/tachyons-heights.git
 ```
 
 ## Usage
@@ -41,6 +51,14 @@ $ tachyons path/to/css-file.css > dist/t.css
 
 #### Using the CSS
 
+##### CDN
+The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
+
+```
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-heights@5.0.4/css/tachyons-heights.min.css" />
+```
+
+##### Locally
 The built CSS is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
@@ -74,7 +92,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .h-100 { height: 100%; }
 /* String Properties */
 .h-auto { height: auto; }
-.h-i { height: inherit; }
+.h-inherit { height: inherit; }
 @media screen and (min-width: 48em) {
  .h1-ns { height: 1rem; }
  .h2-ns { height: 2rem; }
@@ -86,7 +104,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-75-ns { height: 75%; }
  .h-100-ns { height: 100%; }
  .h-auto-ns { height: auto; }
- .h-i-ns { height: inherit; }
+ .h-inherit-ns { height: inherit; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .h1-m { height: 1rem; }
@@ -99,7 +117,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-75-m { height: 75%; }
  .h-100-m { height: 100%; }
  .h-auto-m { height: auto; }
- .h-i-m { height: inherit; }
+ .h-inherit-m { height: inherit; }
 }
 @media screen and (min-width: 64em) {
  .h1-l { height: 1rem; }
@@ -112,7 +130,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .h-75-l { height: 75%; }
  .h-100-l { height: 100%; }
  .h-auto-l { height: auto; }
- .h-i-l { height: inherit; }
+ .h-inherit-l { height: inherit; }
 }
 ```
 
@@ -131,5 +149,5 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 ## License
 
-MIT
+ISC
 
